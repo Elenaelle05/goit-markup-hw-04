@@ -259,6 +259,20 @@ display: block;
 
     margin-bottom: 8px;
 }
+.goals-icons {
+display: inline-block;
+    width: 64px;
+    height: 64px;
+    /* padding-top: 24px; */
+}
+.icons-container {
+    background-color: var(--cloud);
+    height: 112px;
+width: 264px;
+border-radius: 4px;
+text-align: center;
+
+}
 
 .goals-description {
     font-family: 'Roboto', sans-serif;
