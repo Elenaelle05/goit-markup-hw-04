@@ -18,7 +18,13 @@ body {
     background-color: var(--white);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -69,6 +75,9 @@ a {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -111,7 +120,7 @@ a {
 
 
 .header-link {
-display: block;
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -170,18 +179,16 @@ display: block;
 /* }  */
 
 .section-hero {
-    background-image:linear-gradient(to right,
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)
-  ),
-  url(../images/people-office.jpg);
-  width: 1440px;
-  background-repeat:repeat;
-  background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: var(--navyblue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 188px 0;
-    
+
+
 }
 
 
@@ -259,18 +266,20 @@ display: block;
 
     margin-bottom: 8px;
 }
+
 .goals-icons {
-display: inline-block;
+    display: inline-block;
     width: 64px;
     height: 64px;
     /* padding-top: 24px; */
 }
+
 .icons-container {
     background-color: var(--cloud);
     height: 112px;
-width: 264px;
-border-radius: 4px;
-text-align: center;
+    width: 264px;
+    border-radius: 4px;
+    text-align: center;
 
 }
 
@@ -342,7 +351,7 @@ text-align: center;
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 
 
 }
