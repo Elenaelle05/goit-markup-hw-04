@@ -279,7 +279,11 @@ a {
     height: 112px;
     width: 264px;
     border-radius: 4px;
+    margin-bottom: 8px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
