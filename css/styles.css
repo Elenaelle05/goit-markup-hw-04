@@ -380,8 +380,6 @@ a {
     gap: 24px;
 }
 .team-soc-icons{
-    width: 40px; 
-    height: 40px;
     fill: var(--cloud);
     border-radius:50%;
     display: flex;
@@ -476,7 +474,7 @@ a {
     color: var(--lightslate);
 }
 .customer-icons {
-    fill: var(--lightslate);
+    fill: currentColor;
 }
 
 .customers-link:hover,
