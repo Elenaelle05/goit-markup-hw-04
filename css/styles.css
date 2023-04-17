@@ -476,7 +476,7 @@ a {
 
 }
 .socials-icons {
-    fill: currentColor;
+    fill: var(--lightslate);
 }
 /* .header-customers{
     margin:0 auto;
