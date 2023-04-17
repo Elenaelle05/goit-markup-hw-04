@@ -462,9 +462,7 @@ a {
     height: 88px;
 }
 
-.socials-icons {
-    fill: currentColor;
-}
+
 .customers-link {
     width: 100%;
     height: 100%;
@@ -473,19 +471,22 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--lightslate);
+    color: var(--lightslate);
 
 
+}
+.socials-icons {
+    fill: currentColor;
 }
 /* .header-customers{
     margin:0 auto;
     padding: auto;
 } */
+
 .customers-link:hover,
-.customers-link:focus{
+.customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
-
 }
 
 /* FOOTER */
