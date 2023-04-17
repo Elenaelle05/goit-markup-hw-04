@@ -370,7 +370,7 @@ a {
 
 }
 .container-team-icon {
-    padding: 32px 0;
+    
 
 }
 .team-icon {
@@ -382,7 +382,6 @@ a {
     width: 40px; 
     height: 40px;
     fill: var(--cloud);
-    background-color:var(--iris);
     border-radius:50%;
     display: flex;
     align-items: center;
@@ -411,8 +410,8 @@ a {
     justify-content: center;
 }
 .team-icon-link:hover,
-.team-icon-link:focus:{
-    background-color: #404bbf;
+.team-icon-link:focus{
+    background-color: #404bbf; 
 
 }
 .team-member {
@@ -462,6 +461,10 @@ a {
     width: calc((100% - 120px) / 6);
     height: 88px;
 }
+
+.customer-icons{
+    fill: currentColor;
+}
 .customers-link {
     width: 100%;
     height: 100%;
@@ -474,12 +477,11 @@ a {
 
 
 }
-.customer-link:hover,
-.customer-link:focus{
+.customers-link:hover,
+.customers-link:focus{
     border-color: #404bbf;
     color: #404bbf;
-    border-color: #404bbf;
-    color: #404bbf;
+
 }
 
 /* FOOTER */
