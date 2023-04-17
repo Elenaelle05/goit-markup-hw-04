@@ -457,9 +457,7 @@ a {
     gap: 24px;
 
 }
-.customer-icons {
-    fill: var(--lightslate);
-}
+
 .customers-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
@@ -475,16 +473,10 @@ a {
     align-items: center;
     justify-content: center;
     color: var(--lightslate);
-
-
 }
-.socials-icons {
-    /* fill: var(--lightslate); */
+.customer-icons {
+    fill: var(--lightslate);
 }
-/* .header-customers{
-    margin:0 auto;
-    padding: auto;
-} */
 
 .customers-link:hover,
 .customers-link:focus {
