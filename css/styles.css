@@ -477,6 +477,10 @@ a {
 
 
 }
+/* .header-customers{
+    margin:0 auto;
+    padding: auto;
+} */
 .customers-link:hover,
 .customers-link:focus{
     border-color: #404bbf;
