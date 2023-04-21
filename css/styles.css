@@ -520,7 +520,7 @@ a {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+   
 
 }
 .footer-header {
@@ -532,6 +532,9 @@ a {
     margin-bottom: 16px;
 
 
+}
+.footer-cont {
+    margin-right: 120px;
 }
 
 .footer-link {
