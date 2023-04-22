@@ -354,12 +354,13 @@ a {
     text-transform: capitalize;
     color: var(--navyblue);
     margin-bottom: 72px;
+
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-
+    
 }
 
 .team-item {
@@ -438,7 +439,9 @@ a {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--slate)
+    color: var(--slate);
+    padding-bottom: 8px;
+    
 }
 .customers {
     padding: 120px 0;
